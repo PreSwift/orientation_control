@@ -1,4 +1,4 @@
-package com.zyh.orientation_control_example
+package com.zyh.example
 
 import io.flutter.embedding.android.FlutterActivity
 

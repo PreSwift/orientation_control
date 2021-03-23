@@ -1,6 +1,6 @@
-# orientation_control_example
+# example
 
-Demonstrates how to use the orientation_control plugin.
+A new Flutter application.
 
 ## Getting Started
 

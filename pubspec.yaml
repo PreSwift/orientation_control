@@ -1,6 +1,6 @@
 name: orientation_control
 description: Easy to control orientation.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/PreSwift/orientation_control
 
 environment:

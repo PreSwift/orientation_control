@@ -5,19 +5,11 @@ import 'package:flutter/services.dart';
 class OrientationControl {
 
   static Future<void> landscapeLeftMode() async {
-    if (Platform.isAndroid) {
-      return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeRight]);
-    } else {
-      return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
-    }
+    return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
   }
 
   static Future<void> landscapeRightMode() async {
-    if (Platform.isAndroid) {
-      return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft]);
-    } else {
-      return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeRight]);
-    }
+    return SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeRight]);
   }
 
   static Future<void> portraitUpMode() async {
