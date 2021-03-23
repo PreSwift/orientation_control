@@ -1,3 +1,6 @@
+## 0.0.4
+* Add landscapeRightAutoMode method.
+
 ## 0.0.3
 * Fix Bug.
 

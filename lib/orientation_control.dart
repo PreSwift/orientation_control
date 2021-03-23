@@ -32,11 +32,13 @@ class OrientationControl {
   }
 
   static Future<void> landscapeAutoMode() async {
-    if (Platform.isAndroid)
-      return SystemChrome.setPreferredOrientations([
-        DeviceOrientation.landscapeLeft,
-        DeviceOrientation.landscapeRight,
-      ]);
+    return SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
+  }
+
+  static Future<void> landscapeRightAutoMode() async {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeRight,
     ]).then((value) {
